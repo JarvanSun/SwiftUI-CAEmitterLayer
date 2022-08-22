@@ -60,9 +60,3 @@ class AnimationView: UIView {
         emitterLayer.setNeedsDisplay()
     }
 }
-
-class EmitterLayer: CALayer {
-    override func draw(in ctx: CGContext) {
-
-    }
-}
