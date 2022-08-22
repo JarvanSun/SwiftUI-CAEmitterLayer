@@ -50,8 +50,8 @@ class AnimationView: UIView {
         super.layoutSubviews()
         emitterLayer.frame = self.bounds
         emitterLayer.emitterPosition = CGPoint(
-            x: bounds.size.width/2.0,
-            y: bounds.size.height/2.0
+            x: bounds.size.width / 2.0,
+            y: bounds.size.height / 2.0
         )
         emitterLayer.emitterSize = CGSize(
             width: bounds.size.width - 100,
