@@ -20,7 +20,7 @@ class AnimationView: UIView {
         setup()
     }
     
-    func setup() {
+    private func setup() {
         emitterLayer.renderMode = .additive
         emitterLayer.preservesDepth = true
         let cell = CAEmitterCell()
